@@ -1,18 +1,18 @@
-#include "main.h"
-#include <stdio.h>
+#include "../main.h"
 
 /**
- * main - check the code
+ * main - check the code for ALX School students.
  *
  * Return: Always 0.
- */
+*/
+
 int main(void)
 {
-    char *str;
-    int len;
+	char *str;
+	int len;
 
-    str = "My first strlen!";
-    len = _strlen(str);
-    printf("%d\n", len);
-    return (0);
+	str = "My first strlen!";
+	len = _strlen(str);
+	printf("%d\n", len);
+	return (0);
 }

@@ -1,11 +1,11 @@
-#include "../main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code for ALX School students.
+ * main - check the code
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	int a;
@@ -13,8 +13,8 @@ int main(void)
 
 	a = 98;
 	b = 42;
-	printf("a = %d, b = %d\n", a, b);
+	printf("a=%d, b=%d\n", a, b);
 	swap_int(&a, &b);
-	printf("a = %d, b = %d\n", a, b);
+	printf("a=%d, b=%d\n", a, b);
 	return (0);
 }
